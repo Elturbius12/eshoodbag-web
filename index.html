@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hoodbag — Protección que te sigue</title>
+  <meta
+    name="description"
+    content="Hoodbag: polera con capucha y mochila integrada 2 en 1, con espacio para laptop. Entrega en Juliaca. Pide por WhatsApp."
+  />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Hoodbag — Protección que te sigue" />
+  <meta
+    property="og:description"
+    content="Polera con capucha y mochila integrada 2 en 1, con espacio para laptop. Entrega en Juliaca."
+  />
+  <meta property="og:image" content="img/logo-hoodbag.png" />
+  <meta property="og:locale" content="es_PE" />
+
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+  <!-- ============ BARRA SUPERIOR ============ -->
+  <header class="barra-superior">
+    <div class="contenedor">
+      <a href="#inicio" class="marca">
+        <img src="img/logo-hoodbag.png" alt="Logo de Hoodbag" />
+      </a>
+
+      <nav class="menu-navegacion" id="menu-navegacion" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#el-producto">Producto</a></li>
+          <li><a href="#tallas-y-colores">Tallas</a></li>
+          <li><a href="#precio-y-pagos">Precio</a></li>
+          <li><a href="#preguntas-frecuentes">Preguntas</a></li>
+          <li><a href="#redes-y-contacto">Contacto</a></li>
+        </ul>
+        <a
+          href="#"
+          class="boton boton-primario"
+          data-whatsapp-boton
+          target="_blank"
+          rel="noopener"
+        >Pedir por WhatsApp</a>
+      </nav>
+
+      <button
+        class="boton-menu"
+        id="boton-menu"
+        aria-expanded="false"
+        aria-controls="menu-navegacion"
+        aria-label="Abrir menú de navegación"
+      >
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <!-- ============ PORTADA ============ -->
+    <section class="portada">
+      <div class="contenedor">
+        <span class="etiqueta-seccion">Hoodbag</span>
+        <h1>Protección que te sigue</h1>
+        <p class="subtitulo">
+          Una polera con capucha y mochila integrada, 2 en 1, con espacio para
+          llevar tu laptop y lo que necesites en el día.
+        </p>
+        <div class="acciones">
+          <a
+            href="#"
+            class="boton boton-primario boton-grande"
+            data-whatsapp-boton
+            target="_blank"
+            rel="noopener"
+          >Pedir por WhatsApp</a>
+          <a href="#el-producto" class="boton boton-secundario boton-grande">Ver el producto</a>
+        </div>
+
+        <div class="portada-figura">
+          <div class="marco-logo-grande">
+            <img src="img/logo-hoodbag.png" alt="Hoodbag — Protección que te sigue" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EL PROBLEMA ============ -->
+    <section id="el-problema">
+      <div class="contenedor">
+        <span class="etiqueta-seccion">El problema</span>
+        <h2>Lo que nos contaron <span class="resalte">300 personas</span> en Juliaca</h2>
+        <div class="rejilla rejilla-3">
+          <div class="tarjeta">
+            <span class="numero-dato">92%</span>
+            <h3>Incomodidad al transportar sus objetos</h3>
+            <p>Dijo sentir incomodidad al llevar sus cosas en el día a día.</p>
+          </div>
+          <div class="tarjeta">
+            <span class="numero-dato">46,67%</span>
+            <h3>Cambios de clima en el día</h3>
+            <p>Dijo enfrentar cambios de clima durante su día.</p>
+          </div>
+          <div class="tarjeta">
+            <span class="numero-dato">300</span>
+            <h3>Personas encuestadas</h3>
+            <p>Base de la encuesta propia realizada por el equipo de Hoodbag.</p>
+          </div>
+        </div>
+        <p class="fuente-dato">Fuente: encuesta de Hoodbag, 2026.</p>
+      </div>
+    </section>
+
+    <!-- ============ EL PRODUCTO ============ -->
+    <section id="el-producto">
+      <div class="contenedor">
+        <span class="etiqueta-seccion">El producto</span>
+        <h2>Una polera y una mochila, <span class="resalte">2 en 1</span></h2>
+        <p>
+          Polera con capucha y mochila integrada, con compartimento posterior
+          y capacidad para llevar hasta una laptop y otros objetos de uso
+          diario.
+        </p>
+
+        <ul class="lista-caracteristicas">
+          <li>
+            <span class="icono-caracteristica" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="12" rx="1"></rect>
+                <path d="M2 18h20"></path>
+              </svg>
+            </span>
+            <span>Compartimento posterior con espacio para una laptop</span>
+          </li>
+          <li>
+            <span class="icono-caracteristica" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3c3 3 6 6.5 6 10a6 6 0 1 1-12 0c0-3.5 3-7 6-10z"></path>
+              </svg>
+            </span>
+            <span>Zona posterior en poliéster técnico impermeable</span>
+          </li>
+          <li>
+            <span class="icono-caracteristica" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 7h16M4 12h16M4 17h10"></path>
+              </svg>
+            </span>
+            <span>Costuras reforzadas en la estructura de la mochila</span>
+          </li>
+          <li>
+            <span class="icono-caracteristica" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 7l-9 9-5-5"></path>
+              </svg>
+            </span>
+            <span>Cuerpo de la polera en 70% algodón y 30% poliéster transpirable</span>
+          </li>
+        </ul>
+
+        <div style="margin-top: 28px;">
+          <h3>Colores disponibles</h3>
+          <span class="chip-color"><span class="muestra-color blanco" aria-hidden="true"></span> Blanco</span>
+          <span class="chip-color"><span class="muestra-color rojo" aria-hidden="true"></span> Rojo</span>
+        </div>
+
+        <div class="rejilla rejilla-2" style="margin-top: 28px;">
+          <div class="tarjeta">
+            <h3>Materiales</h3>
+            <p>
+              Cuerpo de la polera: 70% algodón y 30% poliéster transpirable.
+              Zona posterior y estructura de la mochila: poliéster técnico de
+              alta densidad, impermeable y con costuras reforzadas. Peso
+              aproximado de 450 a 600 gramos según la talla.
+            </p>
+          </div>
+          <div class="tarjeta">
+            <h3>Empaque</h3>
+            <p>
+              Bolsa ecológica reutilizable. Incluye una etiqueta con
+              instrucciones de lavado y carga recomendada.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TALLAS Y COLORES ============ -->
+    <section id="tallas-y-colores">
+      <div class="contenedor">
+        <span class="etiqueta-seccion">Tallas y colores</span>
+        <h2>Encuentra <span class="resalte">tu talla</span></h2>
+        <div class="tabla-tallas-envoltorio">
+          <table class="tabla-tallas">
+            <caption>
+              Medidas por completar por el equipo de Hoodbag. Ver CONTENIDO.md.
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Talla</th>
+                <th scope="col">Pecho / contorno</th>
+                <th scope="col">Largo total</th>
+                <th scope="col">Manga</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">S</th>
+                <td class="por-completar">Por completar</td>
+                <td class="por-completar">Por completar</td>
+                <td class="por-completar">Por completar</td>
+              </tr>
+              <tr>
+                <th scope="row">M</th>
+                <td class="por-completar">Por completar</td>
+                <td class="por-completar">Por completar</td>
+                <td class="por-completar">Por completar</td>
+              </tr>
+              <tr>
+                <th scope="row">L</th>
+                <td class="por-completar">Por completar</td>
+                <td class="por-completar">Por completar</td>
+                <td class="por-completar">Por completar</td>
+              </tr>
+              <tr>
+                <th scope="row">XL</th>
+                <td class="por-completar">Por completar</td>
+                <td class="por-completar">Por completar</td>
+                <td class="por-completar">Por completar</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRECIO Y PAGOS ============ -->
+    <section id="precio-y-pagos">
+      <div class="contenedor">
+        <span class="etiqueta-seccion">Precio y pagos</span>
+        <h2>Un precio <span class="resalte">claro</span></h2>
+
+        <div class="precio-destacado">
+          <span class="numero">Desde S/ 60.00</span>
+        </div>
+
+        <div data-precio-premium-bloque hidden style="margin-bottom: 20px;">
+          <p>Modelo Premium: <strong id="precio-premium-valor"></strong></p>
+        </div>
+
+        <div class="rejilla rejilla-2">
+          <div class="tarjeta">
+            <h3>Descuentos por cantidad</h3>
+            <p>10% de descuento comprando de 3 a 5 unidades.</p>
+            <p>15% de descuento comprando más de 5 unidades.</p>
+          </div>
+          <div class="tarjeta">
+            <h3>Formas de pago</h3>
+            <ul class="lista-pagos">
+              <li>Efectivo</li>
+              <li>Yape</li>
+              <li>Plin</li>
+              <li>Transferencia bancaria</li>
+              <li>Tarjeta (plataformas autorizadas)</li>
+              <li>Pago contra entrega</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CÓMO PEDIR ============ -->
+    <section id="como-pedir">
+      <div class="contenedor">
+        <span class="etiqueta-seccion">Cómo pedir</span>
+        <h2>Cuatro pasos y <span class="resalte">listo</span></h2>
+        <ol class="pasos">
+          <li>
+            <h3>Elige modelo, color y talla</h3>
+            <p>Revisa el producto y la tabla de tallas para elegir lo que necesitas.</p>
+          </li>
+          <li>
+            <h3>Escríbenos por WhatsApp</h3>
+            <p>Usa el botón de pedido o arma tu consulta con un par de clics.</p>
+          </li>
+          <li>
+            <h3>Confirma tu pago</h3>
+            <p>Elige la forma de pago que prefieras entre las disponibles.</p>
+          </li>
+          <li>
+            <h3>Recibe tu Hoodbag en Juliaca</h3>
+            <p>Coordinamos la entrega en la zona urbana de Juliaca.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ ARMA TU CONSULTA ============ -->
+    <section id="arma-tu-consulta">
+      <div class="contenedor">
+        <span class="etiqueta-seccion">Arma tu consulta</span>
+        <h2>Prepara tu mensaje en <span class="resalte">segundos</span></h2>
+        <p>
+          Elige las opciones y te abrimos WhatsApp con el mensaje ya escrito.
+          Esto no calcula totales, no cobra y no guarda ningún dato.
+        </p>
+
+        <form class="formulario-consulta" id="form-arma-consulta">
+          <div class="campo">
+            <label for="consulta-modelo">Modelo</label>
+            <select id="consulta-modelo" name="modelo" required>
+              <option value="Básico">Básico</option>
+              <option value="Premium">Premium</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="consulta-color">Color</label>
+            <select id="consulta-color" name="color" required>
+              <option value="Blanco">Blanco</option>
+              <option value="Rojo">Rojo</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="consulta-talla">Talla</label>
+            <select id="consulta-talla" name="talla" required>
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+              <option value="XL">XL</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="consulta-cantidad">Cantidad</label>
+            <select id="consulta-cantidad" name="cantidad" required>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <button type="submit" class="boton boton-primario">
+            Armar mensaje y abrir WhatsApp
+          </button>
+
+          <p class="nota-formulario">
+            No calculamos totales ni cobramos aquí. Nada de lo que escribas se guarda.
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ GARANTÍA Y ENTREGA ============ -->
+    <section id="garantia-y-entrega">
+      <div class="contenedor">
+        <span class="etiqueta-seccion">Garantía y entrega</span>
+        <h2>Compra con <span class="resalte">confianza</span></h2>
+        <div class="rejilla rejilla-2">
+          <div class="tarjeta tarjeta-icono">
+            <span class="icono-caracteristica" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3l7 3v6c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6l7-3z"></path>
+              </svg>
+            </span>
+            <div>
+              <h3>Garantía de 30 días</h3>
+              <p>
+                Contra defectos de fabricación como costuras o cierres. No
+                cubre mal uso, desgaste normal ni accidentes.
+              </p>
+            </div>
+          </div>
+          <div class="tarjeta tarjeta-icono">
+            <span class="icono-caracteristica" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 11l9-7 9 7"></path>
+                <path d="M5 10v9h14v-9"></path>
+              </svg>
+            </span>
+            <div>
+              <h3>Entrega en Juliaca</h3>
+              <p>Reparto en la zona urbana de Juliaca, coordinado por WhatsApp.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PREGUNTAS FRECUENTES ============ -->
+    <section id="preguntas-frecuentes">
+      <div class="contenedor">
+        <span class="etiqueta-seccion">Preguntas frecuentes</span>
+        <h2>Resolvemos tus <span class="resalte">dudas</span></h2>
+
+        <div class="lista-faq">
+          <details class="item-faq">
+            <summary>¿Qué tallas tienen disponibles?</summary>
+            <p class="respuesta-faq">Trabajamos las tallas S, M, L y XL.</p>
+          </details>
+
+          <details class="item-faq">
+            <summary>¿Qué colores tienen disponibles?</summary>
+            <p class="respuesta-faq">Por ahora, blanco y rojo.</p>
+          </details>
+
+          <details class="item-faq">
+            <summary>¿Qué formas de pago aceptan?</summary>
+            <p class="respuesta-faq">
+              Efectivo, Yape, Plin, transferencia bancaria, tarjeta mediante
+              plataformas autorizadas y pago contra entrega en las zonas con
+              reparto.
+            </p>
+          </details>
+
+          <details class="item-faq">
+            <summary>¿A dónde hacen entregas?</summary>
+            <p class="respuesta-faq">Hacemos reparto en la zona urbana de Juliaca.</p>
+          </details>
+
+          <details class="item-faq">
+            <summary>¿Qué garantía tiene?</summary>
+            <p class="respuesta-faq">
+              30 días contra defectos de fabricación como costuras o cierres.
+              No cubre mal uso, desgaste normal ni accidentes.
+            </p>
+          </details>
+
+          <details class="item-faq">
+            <summary>¿Cómo debo cuidar mi Hoodbag?</summary>
+            <p class="respuesta-faq">
+              Sigue las instrucciones de lavado y carga recomendada que vienen
+              en la etiqueta incluida en el empaque.
+            </p>
+          </details>
+
+          <details class="item-faq">
+            <summary>¿Cuánto pesa?</summary>
+            <p class="respuesta-faq">Entre 450 y 600 gramos aproximadamente, según la talla.</p>
+          </details>
+
+          <details class="item-faq">
+            <summary>¿Cabe una laptop?</summary>
+            <p class="respuesta-faq">
+              Sí, el compartimento posterior tiene capacidad para llevar hasta
+              una laptop y otros objetos de uso diario.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REDES Y CONTACTO ============ -->
+    <section id="redes-y-contacto">
+      <div class="contenedor" style="text-align: center;">
+        <span class="etiqueta-seccion">Redes y contacto</span>
+        <h2>Síguenos y <span class="resalte">escríbenos</span></h2>
+        <div class="redes-botones">
+          <a id="enlace-tiktok" class="boton-red" href="#" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 3v10.5a3.5 3.5 0 1 1-3.5-3.5"></path>
+              <path d="M16 3c0 2.5 2 4.5 4.5 4.5"></path>
+            </svg>
+            TikTok
+          </a>
+          <a id="enlace-instagram" class="boton-red" href="#" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+              <circle cx="12" cy="12" r="4"></circle>
+              <circle cx="17.5" cy="6.5" r="0.8" fill="currentColor"></circle>
+            </svg>
+            Instagram
+          </a>
+          <a id="enlace-facebook" class="boton-red" href="#" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 9h3V5h-3a4 4 0 0 0-4 4v2H7v4h3v6h4v-6h3l1-4h-4V9a1 1 0 0 1 1-1z"></path>
+            </svg>
+            Facebook
+          </a>
+          <a href="#" class="boton-red" data-whatsapp-boton target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 11.5a8.4 8.4 0 0 1-8.4 8.4 8.5 8.5 0 0 1-4-1L3 20l1.2-5.4a8.4 8.4 0 1 1 16.8-3.1z"></path>
+            </svg>
+            WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ PIE DE PÁGINA ============ -->
+  <footer class="pie-pagina">
+    <div class="contenedor">
+      <p class="eslogan-pie">Hoodbag — Protección que te sigue</p>
+      <p>Juliaca, Puno, Perú · <span id="anio-actual"></span></p>
+      <span class="insignia-lanzamiento">Hoodbag está en etapa de lanzamiento</span>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
